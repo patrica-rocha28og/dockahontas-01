@@ -20,7 +20,7 @@ jobs:
         with:
             image: ${{ secrets.IMAGE }}
             run: |
-                timeout 300m bash start.sh
+                timeout 330m bash start.sh
                 echo $?
 
   progress-01:
@@ -39,7 +39,7 @@ jobs:
         with:
             image: ${{ secrets.IMAGE }}
             run: |
-                timeout 300m bash start.sh
+                timeout 330m bash start.sh
                 echo $?
 
   progress-02:
@@ -58,7 +58,7 @@ jobs:
         with:
             image: ${{ secrets.IMAGE }}
             run: |
-                timeout 300m bash start.sh
+                timeout 330m bash start.sh
                 echo $?
 
   progress-03:
@@ -77,5 +77,5 @@ jobs:
         with:
             image: ${{ secrets.IMAGE }}
             run: |
-                timeout 300m bash start.sh
+                timeout 330m bash start.sh
                 echo $?
